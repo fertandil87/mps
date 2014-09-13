@@ -13,5 +13,5 @@ angular.module('myApp', [
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/:lugar/:tipo/:documento', {templateUrl: 'partials/documentos.html', controller: 'DocumentosCtrl'});
   $routeProvider.when('/:lugar/:tipo', {templateUrl: 'partials/documentos.html', controller: 'DocumentosCtrl'});
-  $routeProvider.otherwise({redirectTo: '/singles/categoria1/resumen'});
+  $routeProvider.otherwise({redirectTo: '/desafios/comentarios'});
 }]);

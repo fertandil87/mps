@@ -41,7 +41,7 @@ angular.module('myApp')
                         link: "#/singles/categoria1/resultados"
                     },
                     {
-                        titulo: "Resumen",
+                        titulo: "Ranking",
                         link: "#/singles/categoria1/resumen"
                     }
                 ]
@@ -58,7 +58,7 @@ angular.module('myApp')
                         link: "#/singles/categoria2/resultados"
                     },
                     {
-                        titulo: "Resumen",
+                        titulo: "Ranking",
                         link: "#/singles/categoria2/resumen"
                     }
                 ]
@@ -75,7 +75,7 @@ angular.module('myApp')
                         link: "#/singles/categoria3/resultados"
                     },
                     {
-                        titulo: "Resumen",
+                        titulo: "Ranking",
                         link: "#/singles/categoria3/resumen"
                     }
                 ]
@@ -92,7 +92,7 @@ angular.module('myApp')
                         link: "#/singles/categoria4/resultados"
                     },
                     {
-                        titulo: "Resumen",
+                        titulo: "Ranking",
                         link: "#/singles/categoria4/resumen"
                     }
                 ]

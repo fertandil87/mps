@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "ar.com.cosadeserranos.matchpoint"
-        version   = "1.1">
+        version   = "1.2">
 
     <name>Match Point Serrano</name>
 
@@ -16,7 +16,7 @@
         Fernando Saez
     </author>
 
-    <preference name="phonegap-version" value="3.6.3" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version" value="3.7" />          <!-- all: current version of PhoneGap -->
    
    
     <icon src="img/icon.jpg" />

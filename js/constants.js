@@ -4,6 +4,10 @@ angular.module('myApp')
         singles_categoria1_resultados: "https://docs.google.com/document/d/1z1ZcOg8YI0SDHjtoQvEb40PFsJIPpc2QhY-yDZ6BwyI/pub?embedded=true",
         singles_categoria1_resumen: "https://docs.google.com/document/d/1yBs4L_ZVqZYjIWuND6i6DJRUI_AEiORIEDdAXrAiU8w/pub?embedded=true",
         
+        singles_categoria12_horarios: "https://docs.google.com/document/d/1uA3-50wCaftoqjQjbqbpg33_0JjNS2EcNRnJ5aw7HC0/pub?embedded=true",
+        singles_categoria12_resultados: "https://docs.google.com/document/d/1SXdLbtQKbIXMyQveCqw81_c_loKJ9I4EGNS1kqYk4Gw/pub?embedded=true",
+        singles_categoria12_resumen: "https://docs.google.com/document/d/1slaVFnoESub9VIDn3jmVpu4esqZqCRs3nthkTqRhCVc/pub?embedded=true",
+        
         singles_categoria2_horarios: "https://docs.google.com/document/d/1yQX2Fy2dPtG-v_uQ6zzOzMjRFloszVm-CXS3L9l5WM0/pub?embedded=true",
         singles_categoria2_resultados: "https://docs.google.com/document/d/1bAERh2OL7a5bCGjWiB2q5Bpjy5gRxg6I2sPD4EcH3Yo/pub?embedded=true",
         singles_categoria2_resumen: "https://docs.google.com/document/d/1_pafoPUA1f51NWaz6Lt4CuwNZxf_RAWfIjUYzhMaSao/pub?embedded=true",
@@ -43,6 +47,23 @@ angular.module('myApp')
                     {
                         titulo: "Ranking",
                         link: "#/singles/categoria1/resumen"
+                    }
+                ]
+            },
+            categoria12: {
+                titulo: "Intermedia",
+                secciones: [
+                    {
+                        titulo: "Horarios",
+                        link: "#/singles/intermedia/horarios"
+                    },
+                    {
+                        titulo: "Resultados",
+                        link: "#/singles/intermedia/resultados"
+                    },
+                    {
+                        titulo: "Ranking",
+                        link: "#/singles/intermedia/resumen"
                     }
                 ]
             },
@@ -109,7 +130,7 @@ angular.module('myApp')
                         link: "#/singles/categoria5/resultados"
                     },
                     {
-                        titulo: "Resumen",
+                        titulo: "Ranking",
                         link: "#/singles/categoria5/resumen"
                     }
                 ]

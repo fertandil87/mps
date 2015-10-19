@@ -1,5 +1,9 @@
 angular.module('myApp')
     .constant('DOCUMENTOS', {
+        singles_bdamas_horarios: "https://docs.google.com/document/d/1iRGUBNNAdXX5ZAsJmzhFvkwzvDtASUjTiOBABegcv5E/pub?embedded=true",
+        singles_bdamas_resultados: "https://docs.google.com/document/d/1hbc84ZOO_hKXhKUrcYKQr0HQYEp7iH9WNNLKA_fPptU/pub?embedded=true",
+        singles_bdamas_resumen: "https://docs.google.com/document/d/1Ub2xbOeuoKfSLvguhF3uqDpmmwjnsoK3wrsFZfT67Xs/pub?embedded=true",
+        
         singles_categoria1_horarios: "https://docs.google.com/document/d/1n1LvOBfPPQgG3EkZ6bzUc3IhMrxbcRtIxrEz5Q5mxG8/pub?embedded=true",
         singles_categoria1_resultados: "https://docs.google.com/document/d/1z1ZcOg8YI0SDHjtoQvEb40PFsJIPpc2QhY-yDZ6BwyI/pub?embedded=true",
         singles_categoria1_resumen: "https://docs.google.com/document/d/1yBs4L_ZVqZYjIWuND6i6DJRUI_AEiORIEDdAXrAiU8w/pub?embedded=true",
@@ -24,8 +28,11 @@ angular.module('myApp')
         singles_categoria5_resultados: "https://docs.google.com/document/d/1sENBCcH8Y1a7087K6zHQT6Ha1VTGD9CpEzM6VPVJr14/pub?embedded=true",
         singles_categoria5_resumen: "https://docs.google.com/document/d/11DpdhLm7t4aZdX9qBozhwbDxEMAVeP5n1gNJuUXLy7s/pub?embedded=true",
         
+        dobles_damas_horarios: "https://docs.google.com/document/d/1rPzApmouDgz7p7AjdV7HiKhLb6CDkUMhTNbFbJUxP9A/pub?embedded=true",
+        dobles_damas_ranking: "https://docs.google.com/document/d/1G0JijKefEOIV_ft0RFK5y1YNP9pWk1kSjewqEDFxHrE/pub?embedded=true",
+        dobles_damas_resultados: "https://docs.google.com/document/d/1QKSjhfo1ZS1nm23ODfNOAFu2X1O_i6fpqMovp5Ok74E/pub?embedded=true",
+        
         dobles_masculino: "https://docs.google.com/document/d/123Mm_ZzbXOMP8DFr7l869MDe9218mMkdPBnxdOCJRQM/pub?embedded=true",
-        dobles_femenino: "https://docs.google.com/document/d/1rPzApmouDgz7p7AjdV7HiKhLb6CDkUMhTNbFbJUxP9A/pub?embedded=true",
         dobles_mixto: "https://docs.google.com/document/d/16GGtu-QIhAL3dOo7nwF88VIgRXWEU2gFF6jyitGrc1I/pub?embedded=true",
         
         desafios_resultados: "https://docs.google.com/document/d/19y9khd0HKPZ2uII9O4rEpEKnnorA5y_fmJ5WCVe5JP4/pub?embedded=true",
@@ -33,6 +40,23 @@ angular.module('myApp')
     })
     .constant('MENU', {
         singles: {
+            bdamas: {
+                titulo: "Damas",
+                secciones: [
+                    {
+                        titulo: "Horarios",
+                        link: "#/singles/bdamas/horarios"
+                    },
+                    {
+                        titulo: "Resultados",
+                        link: "#/singles/bdamas/resultados"
+                    },
+                    {
+                        titulo: "Ranking",
+                        link: "#/singles/bdamas/resumen"
+                    }
+                ]
+            },
             categoria1: {
                 titulo: "Categoria 1",
                 secciones: [
@@ -137,16 +161,29 @@ angular.module('myApp')
             }
         },
         dobles: {
+            damas: {
+                titulo: "Damas",
+                secciones: [
+                    {
+                        titulo: "Horarios",
+                        link: "#/dobles/damas/horarios"
+                    },
+                    {
+                        titulo: "Ranking",
+                        link: "#/dobles/damas/ranking"
+                    },
+                    {
+                        titulo: "Resultados",
+                        link: "#/dobles/damas/resultados"
+                    }
+                ]
+            },
             dobles: {
                 titulo: "Dobles",
                 secciones: [
                     {
                         titulo: "Masculino",
                         link: "#/dobles/masculino"
-                    },
-                    {
-                        titulo: "Femenino",
-                        link: "#/dobles/femenino"
                     },
                     {
                         titulo: "Mixto",

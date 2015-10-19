@@ -16,7 +16,7 @@
         Fernando Saez
     </author>
 
-    <preference name="phonegap-version" value="3.7.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version" value="cli-5.2.0" />          <!-- all: current version of PhoneGap -->
    
    
     <icon src="img/icon.jpg" />
